@@ -50,7 +50,7 @@ def callback(model, where, *, cbdata):
 
 
 # Charger le modèle depuis le fichier MPS
-with gp.read("data/mkp.mps.bz2") as model:
+with gp.read("data/mkp.mps") as model:
     # Paramètres pour la fonction de rappel
     time_from_best = 50  # Temps (en secondes) avant de terminer si le MIPGap ne s'améliore pas
     epsilon_to_compare_gap = 1e-4  # Seuil de changement significatif pour le MIPGap
