@@ -5,6 +5,8 @@ Created on Tue Jan 21 15:58:35 2025
 @author: franc
 
 """
+
+
 from functools import partial
 import gurobipy as gp
 from gurobipy import GRB
